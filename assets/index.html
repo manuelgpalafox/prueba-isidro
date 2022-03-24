@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        h1,h2,h3,h4,h5,h6,p,span,strong,a{
+            font-family: sans-serif;
+        }
+        h1,h2,h3,h4,h5,h6{
+            margin: 0;
+            padding: 0;
+            color: #313d53;
+        }
+        h5{
+            font-size: 15px;
+        }
+        p,span{
+            color:#b8b9b9 ;
+        }
+        hr{
+            border-color: #3895d0;
+            width: 500px;
+        }
+        .container{
+            width: 1100px;
+            margin: 0 auto;
+            text-align:center;
+        }
+        .container-white{
+            margin: 0 auto;
+            text-align:center;
+        }
+        .caja-servicios{
+            width: 33.33%;
+        }
+        .caja-servicios span{
+            font-size: 13px;
+        }
+        .caja-galeria{            
+            width: 33.33%;
+            padding: 15px
+        }
+        .caja-galeria img{
+            width: 100%;
+            display:block;
+        }
+        .fila{
+            display: flex;
+        }
+        .head{
+            padding: 50px 0 45px 0;
+            text-align: center;
+        }
+        .head h2{
+            padding: 20px;
+        }
+        .inp{
+            width: 550px; 
+            padding: 10px ;
+            margin-bottom: 8px;
+            background-color: transparent;
+            border: 1px solid #b8b9b9 ;
+            border-radius: 3px;
+            color: #b8b9b9;
+        }
+        .b1{
+            cursor: pointer; 
+            background-color: transparent; 
+            border: 1px solid #3895d0; 
+            padding: 15px 40px; 
+            border-radius: 5px; 
+            font-size: 20px; 
+            color: white; 
+        }
+        button{
+            cursor: pointer; 
+            background-color: transparent; 
+            border: 1px solid #3895d0; 
+            padding: 15px 20px; 
+            border-radius: 5px; 
+            font-size: 15px; 
+            color: white; 
+        }
+        .checkbox-newsletter{
+            color:white;
+            font-family: sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }       
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; background-color: #f6f9f9;">
+    <!--logo top-->
+    <div style="max-width: 1100px; margin: 0 auto; padding: 30px 0 ;">
+        <img style="display: block;" src="img/logo-strict.png" alt="logo-strict" >
+    </div>
+    <!--header-->
+    <header style="background-image: url(img/bg-header.jpg); height: 600px; display: flex; justify-content: center; align-items: center; text-align: center; background-size: cover;" >
+        <div class="info-header" style="max-width: 700px;">
+            <h2 style="font-size: 115px; color: white;">STRICT</h2>
+            <hr>
+            <p style="color: white;">STRICT is a responsive theme with a clean and minimal look</p>
+            <button class="b1">Call To Action</button>
+        </div>
+    </header>
+    <!--Descripcion-->
+    <section class="container" id="simple" style="padding: 100px 0;">
+        <h2 style="font-size: 40px; color: #313d53;">Simple & Pure design.</h2>
+        <p style="color: #b8b9b9; font-size: 20px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur perferendis quibusdam deserunt ex deleniti ipsam ullam minima ipsum sequi voluptate alias nisi, dignissimos eveniet harum corrupti delectus autem quos enim.
+        </p>
+    </section>
+    <!--Servicios-->
+    <section class="container-white" id="servicios" style="background-color: white;">
+        <div class="container" style="display: flex; justify-content: center; align-items: center; height: 350px;">
+        <div class="caja-servicios">
+            <img src="img/icon-movil.jpg" alt="icon-movil">
+            <h5 style="margin-top: 25px;">Optimized for all devices</h5> <br>
+            <span>STRICT has been designed to be fully responsive on all devices.</span>
+        </div>
+        <div class="caja-servicios">
+            <img src="img/icon-enviar.jpg" alt="icon-enviar">
+            <h5 style="margin-top: 25px;">Clean & Minimal Design</h5> <br>
+            <span>This multipurpose theme is specially created to be used for different projects.</span>
+        </div>
+        <div class="caja-servicios">
+            <img src="img/icon-voz.jpg" alt="icon-voz">
+            <h5 style="margin-top: 25px;">Font Awesome Icon</h5> <br>
+            <span>This multipurpose theme is specially created to be used for different projects.</span>
+        </div> 
+        </div>
+    </section>
+    <!--Galería-->
+    <section id="showcase" style="height: 850px;">
+        <div class="container">
+            <div class="head">
+                <h2>Showcase you work like a pro</h2>
+                <span>Contact me if you like my work</span>
+            </div>
+            <div class="fila">
+                <div class="caja-galeria">
+                    <img src="img/show-1.jpg" alt="show-1">
+                </div>
+                <div class="caja-galeria">
+                    <img src="img/show-2.jpg" alt="show-2">
+                </div>
+                <div class="caja-galeria">
+                    <img src="img/show-3.jpg" alt="show-3">
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="caja-galeria">
+                    <img src="img/show-4.jpg" alt="show-4">
+                </div>
+                <div class="caja-galeria">
+                    <img src="img/show-5.jpg" alt="show-5">
+                </div>
+                <div class="caja-galeria">
+                    <img src="img/show-6.jpg" alt="show-6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Formulario-->
+    <section id="form" style="background-image:url(img/bg-stay.jpg); height: 635px;">
+        <div class="container">
+            <div class="head">
+                <h2 style="color: white; font-size: 45px;">Stay with us</h2>
+                <span>We ensure quality & support</span>
+            </div>
+            <form class="form-body" >
+                <input class="inp" type="text" placeholder="Full Name">
+                <input class="inp" type="email" placeholder="Email Adress">
+                <textarea class="inp" cols="30" rows="10" name="mensaje" placeholder="Message"></textarea>
+    
+                <div class="bottom-form" style="display: flex; width: 550px; margin: 0 auto;">
+                    <div class="checkbox-newsletter" style="width:70%; text-align: left; padding-top: 10px;">
+                        <label for="sub-newsletter">
+                            <input type="checkbox" name="newsletter" id="sub-newsletter">
+                            Subscribe to Newsletter
+                        </label>
+                    </div>
+        
+                    <div class="send-button" style="width: 30%; text-align: right;">
+                        <button type="submit" style="width: 120px;">Send</button>
+                    </div>
+                </div>
+    
+            </form>
+        </div>
+    </section>
+</body>
+
+<footer>
+    <div class="container" style="display: flex;">
+    <div class="left" style="width: 50%; text-align: left; padding-top: 20px; padding-left: 5px;">
+        <div class="copyright">
+            <span>Copyright 2021, Manuel</span>
+        </div>
+    </div>
+
+    <div class="right" style="width: 50%; text-align: right; padding-top: 10px; padding-bottom: 10px;">
+        
+                <a href="#" target="blank">
+                    <img src="img/icon-facebook.jpg" alt="">
+                </a>
+
+                <a href="#" target="blank">
+                    <img src="img/icon-twitter.jpg" alt="">
+                </a>
+
+     
+                <a href="#" target="blank">
+                    <img src="img/icon-google-plus.jpg" alt="">
+                </a>
+ 
+                <a href="#" target="blank">
+                    <img src="img/icon-linked-in.jpg" alt="">
+                </a>
+  
+    </div>
+</div>
+</footer>
+</html>
